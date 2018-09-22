@@ -15,7 +15,7 @@ namespace exam
         {
             foreach (var command in Commands)
             {
-                command.Operation.Start();
+                command.Execute();
             }
 
         }
