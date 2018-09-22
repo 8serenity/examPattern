@@ -7,4 +7,8 @@ namespace exam
     {
         public Task Operation { get; set; }
     }
+    
+    public void Execute(){
+        Operation.Start();
+    }
 }
